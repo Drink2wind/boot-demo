@@ -12,6 +12,7 @@ public class TestController {
 
     @GetMapping("/helloWorld")
     public String helloWorld() {
+        log.info("/test/helloWorld");
         return "hello world!";
     }
 }
